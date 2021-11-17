@@ -1,0 +1,43 @@
+body{
+ width: 90%;
+height: 100vh;
+ margin: 1%;
+ padding: 1.5%;
+ background-color: lightseagreen;
+ font-family: arial, sans-serif; 
+}
+h1,h2{
+    font-family: Verdana, sans-serif;
+    color: rgb(11, 54, 11);
+    text-align: center;
+    background-color: darkcyan;
+    border-bottom: 1px solid black;
+    box-shadow: 5px 10px 15px black;
+}
+.code{
+    font-weight: bold;
+}
+.subtitle{
+    text-align: left;
+}
+.column1{
+ width:10%;
+}
+.column2{
+ width:15%;
+}
+.column3{
+ width:60%;
+}
+table{
+ width: 100%;
+ border: 2.5px solid gray;
+ border-collapse: collapse;
+ margin: 0 auto;
+}
+td,th{
+    border: 1px solid gray;
+}
+tr:nth-child(even){
+    background-color: cadetblue;
+}
